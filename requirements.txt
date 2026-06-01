@@ -1,0 +1,9 @@
+safetensors<0.6
+accelerate<1.10
+transformers==4.43.4
+vllm==0.10.1
+pandas
+pybind11==2.12
+scikit-learn
+numpy
+tqdm
