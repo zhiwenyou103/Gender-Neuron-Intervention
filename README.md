@@ -8,7 +8,12 @@
 
 Official repo of [Neuron-Level Interventions for Gendered and Gender-Neutral Generation in Language Models](https://arxiv.org/abs/2605.30717)
 
+## Diagram
 
+
+![Overview of our gender-specific neuron intervention approach](pics/system-fig.jpg)
+
+---
 
 ## Environment
 
