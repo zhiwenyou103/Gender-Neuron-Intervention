@@ -2,6 +2,8 @@
 
 <div align="left">
   <a href="[https://arxiv.org/abs/2605.30717](https://arxiv.org/abs/2605.30717)"><img src=https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv alt="arXiv"></a>
+  <a href="https://huggingface.co/datasets/uzw/InclusiveGender"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20InclusiveGender-blue?color=8A2BE2" alt="Dataset"></a>
+  <a href="https://huggingface.co/datasets/uzw/GCGender"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20GCGender-blue?color=8A2BE2" alt="Dataset"></a>
 </div>
 
 Official repo of [Neuron-Level Interventions for Gendered and Gender-Neutral Generation in Language Models](https://arxiv.org/abs/2605.30717)
@@ -21,7 +23,9 @@ python -m pip install -r requirements.txt
 
 If your cluster requires a custom PyTorch/CUDA wheel, install the appropriate `torch` build before installing `vllm==0.10.1`.
 
-## Data Format
+## Datasets
+
+`InclusiveGender` and `GCGender` are now available on 🤗 Hugging Face: [InclusiveGender](https://huggingface.co/datasets/uzw/InclusiveGender) and [GCGender](https://huggingface.co/datasets/uzw/GCGender).
 
 Input data should be a CSV with one text column and one label column:
 
