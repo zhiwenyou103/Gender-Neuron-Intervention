@@ -10,8 +10,13 @@ Official repo of [Neuron-Level Interventions for Gendered and Gender-Neutral Gen
 
 ## Diagram
 
-
-![Overview of our gender-specific neuron intervention approach](pics/system-fig.jpg)
+<p align="center">
+  <img
+    src="pics/system-fig.jpg"
+    alt="Overview of our gender-specific neuron intervention approach"
+    width="500"
+  >
+</p>
 
 ---
 
