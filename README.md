@@ -1,14 +1,12 @@
 # Gender Neuron Identification and Intervention
 
-This repository contains the code used to identify gender-specific MLP neurons in causal language models and evaluate targeted neuron interventions during generation.
+<div align="left">
+  <a href="[https://arxiv.org/abs/2605.30717](https://arxiv.org/abs/2605.30717)"><img src=https://img.shields.io/badge/arXiv-b5212f.svg?logo=arxiv alt="arXiv"></a>
+</div>
 
-The pipeline has five stages:
+Official repo of [Neuron-Level Interventions for Gendered and Gender-Neutral Generation in Language Models](https://arxiv.org/abs/2605.30717)
 
-1. Tokenize a gender-labeled CSV into one tensor per gender/style label.
-2. Collect MLP activation statistics for each label with vLLM.
-3. Select gender-specific neurons from the activation statistics.
-4. Generate baseline and intervened outputs.
-5. Evaluate gender-term changes.
+
 
 ## Environment
 
@@ -124,3 +122,20 @@ The script prints aggregate baseline-vs-intervention changes and optionally writ
 - `--mask_factor 1.0` zeros suppressed neurons. Values between 0 and 1 apply softer scaling.
 - `--boost_factor 1.0` doubles the kept label's selected neurons during intervention. Set `--boost_factor 0` to disable amplification.
 - For Qwen-style models, pass `--trust_remote_code` if required by the model implementation.
+
+
+## Citation Information
+If you find this work helpful in your research, please consider citing our paper:
+```
+@misc{you2026neuronlevelinterventionsgenderedgenderneutral,
+      title={Neuron-Level Interventions for Gendered and Gender-Neutral Generation in Language Models}, 
+      author={Zhiwen You and Nafiseh Nikeghbal and Jana Diesner},
+      year={2026},
+      eprint={2605.30717},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2605.30717}, 
+}
+```
+## Contact Information
+If you have any questions, please email `zhiweny2@illinois.edu`.
