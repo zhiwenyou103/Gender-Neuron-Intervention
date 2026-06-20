@@ -42,7 +42,7 @@ Input data should be a CSV with one text column and one label column:
 ```csv
 Sentences,Gender
 "The doctor reviewed the report.",neutral
-"The engineer solved the issue.",male
+"My father solved the issue.",male
 ```
 
 Labels are lowercased during preprocessing. Any label names can be used, but the generation prompts include built-in wording for `male`, `female`, `neutral`, `masculine`, `feminine`, and `gender-neutral`.
